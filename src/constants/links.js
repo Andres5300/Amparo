@@ -1,0 +1,1 @@
+export const CTA_URL = 'https://forms.gle/';
