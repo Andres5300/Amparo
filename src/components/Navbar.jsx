@@ -3,6 +3,7 @@ import { CTA_URL } from '../constants/links';
 
 const navItems = [
   { label: 'Cómo funciona', href: '#como-funciona' },
+  { label: 'Asistente IA', href: '#asistente-ia' },
   { label: 'Casos comunes', href: '#para-quien' },
   { label: 'FAQ', href: '#faq' }
 ];

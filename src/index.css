@@ -22,6 +22,24 @@ body {
   min-height: 100vh;
 }
 
+.amparo-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #86efac #ecfdf5;
+}
+
+.amparo-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.amparo-scroll::-webkit-scrollbar-track {
+  background: #ecfdf5;
+}
+
+.amparo-scroll::-webkit-scrollbar-thumb {
+  background: #6ee7b7;
+  border-radius: 999px;
+}
+
 [data-reveal] {
   opacity: 0;
   transform: translateY(24px);

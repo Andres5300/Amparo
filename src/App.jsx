@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
+import AssistantExperience from './components/AssistantExperience';
 import Audience from './components/Audience';
 import WhyAmparo from './components/WhyAmparo';
 import FAQ from './components/FAQ';
@@ -41,6 +42,7 @@ const App = () => {
       <main>
         <Hero />
         <HowItWorks />
+        <AssistantExperience />
         <Audience />
         <WhyAmparo />
         <FAQ />
